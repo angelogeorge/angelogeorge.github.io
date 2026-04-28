@@ -3,7 +3,7 @@ layout: page
 title: Star-forming main sequence in IllustrisTNG
 description: Calibrating observational diagnostics against a state-of-the-art simulation.
 img: assets/img/6.jpg
-importance: 5
+importance: 6
 category: simulations
 ---
 

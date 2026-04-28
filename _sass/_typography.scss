@@ -41,19 +41,31 @@ h1, h2, h3, h4, h5, h6,
 h1 { font-weight: 700; }
 h2 { font-weight: 600; }
 
-/* Navbar, badges, buttons: clean sans for editorial UI feel */
+/* Navbar: same serif family as the body, just lighter weight + tighter
+ * tracking. Matches the rest of the page so it doesn't read "off". */
 .navbar, .navbar-nav, .nav-link, .navbar-brand,
-.btn, .badge,
-.tab-content > .tab-pane > h2,
 .dropdown-menu {
-  font-family: $df-ui-font;
-  letter-spacing: 0.02em;
+  font-family: $df-heading-font;
+  letter-spacing: 0;
 }
 
 .navbar-nav .nav-link {
   text-transform: none;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-size: 1.2rem;
+}
+
+/* Buttons + badges still get the cleaner sans for visual contrast */
+.btn, .badge {
+  font-family: $df-ui-font;
+  letter-spacing: 0.02em;
 }
 
 code, kbd, pre, samp,

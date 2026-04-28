@@ -28,7 +28,7 @@ latest_posts:
 
 I am a postdoctoral fellow at the
 [Academia Sinica Institute of Astronomy and Astrophysics (ASIAA)](https://www.asiaa.sinica.edu.tw/)
-in Taipei, where I study the structural evolution of galaxies. My research traces
+in Taipei, where I study the evolution of galaxies. My research traces
 how galaxies grow, change shape, and shut down their star formation across the
 last seven billion years, with a particular focus on how a galaxy's environment —
 the difference between living inside a massive cluster and drifting through the
@@ -37,8 +37,9 @@ field — shapes that history.
 Most of my work combines deep imaging from observatories like
 [Subaru](https://subarutelescope.org/),
 [CFHT](https://www.cfht.hawaii.edu/),
-[HST](https://hubblesite.org/), and
-[JWST](https://webb.nasa.gov/)
+[HST](https://hubblesite.org/),
+[JWST](https://webb.nasa.gov/), [Magellan](https://www.lco.cl/magellan-telescopes/), 
+and [ALMA](https://almascience.nrao.edu/),
 with profile-fitting tools such as
 [GALFIT](https://users.obs.carnegiescience.edu/peng/work/galfit/galfit.html)
 and [SourceXtractor++](https://github.com/astrorama/SourceXtractorPlusPlus),
@@ -48,7 +49,7 @@ the bulk of the stellar mass), I disentangle inside-out growth from genuine
 structural transformation.
 
 At ASIAA, I am working on three projects in parallel: characterising galaxy
-quenching with the **KiloGAS** survey, modelling the star-forming main sequence
+quenching with the **KILOGAS** survey, modelling the star-forming main sequence
 in the **IllustrisTNG** simulations, and probing variations of the stellar
 initial mass function using **JWST** and the **Subaru Prime Focus Spectrograph (PFS)**.
 

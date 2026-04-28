@@ -22,6 +22,6 @@ because the underlying stellar mass redistributed, or because the wavelength
 in which we traced light changed as the population aged? The answer matters
 for every size–mass relation in the literature.
 
-The pipeline I wrote runs SourceXtractor++ + GALFIT in parallel on dozens of
+The pipeline I wrote runs GALFIT in parallel on dozens of
 CPU cores, with custom error characterisation via image simulations. The
-first paper from this work appeared in MNRAS in 2024.
+first paper from this work appeared in MNRAS in 2024 {% cite george2024two %}.

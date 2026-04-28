@@ -61,7 +61,10 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: inherit;        // pick up the body serif (Cormorant Garamond)
+    font-size: 0.95rem;
+    line-height: 1.45;
+    color: var(--global-text-color-light);
 
     p {
       display: inline-block;

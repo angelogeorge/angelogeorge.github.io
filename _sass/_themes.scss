@@ -75,6 +75,43 @@ footer > * {
   z-index: 1;
 }
 
+/* Side astronomy strips — only on wide screens, where there's empty
+ * margin to the left and right of the centered content column. */
+@media (min-width: 1400px) {
+  body::before,
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: clamp(120px, calc((100vw - 1080px) / 2), 240px);
+    pointer-events: none;
+    z-index: 0;
+    background-image: url("/assets/img/side_strip.svg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.55;
+  }
+  body::before {
+    left: 0;
+  }
+  body::after {
+    right: 0;
+    transform: scaleX(-1);
+  }
+}
+
+/* Make sure the actual content sits above the side strips */
+body > .content,
+body > #content,
+body > main,
+.container.mt-5,
+.profile,
+.post {
+  position: relative;
+  z-index: 1;
+}
+
 :root {
   color-scheme: light;
   --global-bg-color: #{v.$df-cream};
