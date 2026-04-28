@@ -1,16 +1,23 @@
 name: Render a CV
+# Auto-trigger disabled — rendercv validates _data/cv.yml against a strict
+# schema that doesn't accept al-folio's extra top-level fields (label, image,
+# summary, address). Since we ship a manually-prepared CV PDF at
+# /assets/pdf/CV_George_Angelo.pdf, the auto-PDF isn't needed. To re-enable,
+# either:
+#   (a) restore the `push:` block below, or
+#   (b) trigger this workflow manually from the Actions tab.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
   workflow_call:
   workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  #     - master
+  #   paths:
+  #     - "_data/cv.yml"
+  #     - "assets/rendercv/design.yaml"
+  #     - "assets/rendercv/locale.yaml"
+  #     - "assets/rendercv/settings.yaml"
 permissions:
   contents: write
 jobs:

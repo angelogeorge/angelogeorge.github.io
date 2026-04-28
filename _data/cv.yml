@@ -110,6 +110,14 @@ cv:
         awarder: Saint Mary's University
         summary: Awarded for the successful defence of the Ph.D. dissertation and approval for graduation.
 
+      - title: Faculty of Graduate Studies & Research Fellowship
+        date: 2018-2025
+        awarder: Saint Mary's University
+
+      - title: Faculty of Graduate Studies & Research Graduate Award
+        date: 2018-2025
+        awarder: Saint Mary's University
+
       - title: People's Choice Award
         date: 2021
         awarder: Saint Mary's University
@@ -124,14 +132,6 @@ cv:
         date: 2014
         awarder: Gyandhara Institute of Philosophy
         summary: Highest grades in Philosophy among the 2014 graduating class.
-
-      - title: Faculty of Graduate Studies & Research Fellowship
-        date: 2018
-        awarder: Saint Mary's University
-
-      - title: Faculty of Graduate Studies & Research Graduate Award
-        date: 2018
-        awarder: Saint Mary's University
 
     Volunteer:
       - company: Burke-Gaffney Observatory
