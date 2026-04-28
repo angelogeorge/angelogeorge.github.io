@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-talks",
           title: "Talks",
-          description: "Invited talks, contributed talks, and posters.",
+          description: "Invited colloquia, contributed talks, posters, and upcoming travel.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
@@ -412,7 +412,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-paper-out-in-apj-effects-of-environment-on-the-size-evolution-of-quiescent-galaxies-quiescent-galaxies-grow-more-slowly-in-cluster-cores-than-in-the-field-in-both-the-rest-frame-uv-and-optical-let-me-know-what-you-think",
+            },},{id: "news-new-paper-out-in-apj-effects-of-environment-on-the-size-evolution-of-quiescent-galaxies-quiescent-galaxies-are-smaller-in-cluster-cores-than-in-the-field-especially-in-the-rest-frame-uv-let-me-know-what-you-think",
           title: 'New paper out in ApJ! Effects of Environment on the Size Evolution of...',
           description: "",
           section: "News",},{id: "news-successfully-defended-my-ph-d-at-saint-mary-s-university-the-thesis-two-rest-frame-wavelength-analysis-of-galaxy-size-evolution-in-the-field-and-cluster-environments-was-awarded-the-durland-family-chancellor-s-doctoral-convocation-award-mortar-board",
@@ -421,8 +421,14 @@ ninja.data = [{
           section: "News",},{id: "news-joined-asiaa-in-taipei-as-a-postdoctoral-fellow-excited-to-be-working-on-galaxy-quenching-imf-variations-and-the-star-forming-main-sequence-with-kilogas-jwst-subaru-pfs-and-illustristng-rocket",
           title: 'Joined ASIAA in Taipei as a postdoctoral fellow! Excited to be working on...',
           description: "",
-          section: "News",},{id: "news-invited-colloquia-confirmed-at-national-tsing-hua-university-hsinchu-and-national-central-university-taoyuan-in-2026-topics-tbd-come-say-hi-wave",
-          title: 'Invited colloquia confirmed at National Tsing Hua University (Hsinchu) and National Central University...',
+          section: "News",},{id: "news-excited-to-be-giving-an-invited-colloquium-at-the-indian-institute-of-astrophysics-in-bengaluru-on-feb-10-with-follow-up-colloquia-at-nthu-hsinchu-mar-6-and-ncu-taoyuan-apr-10-looking-forward-to-the-conversations",
+          title: 'Excited to be giving an invited colloquium at the Indian Institute of Astrophysics...',
+          description: "",
+          section: "News",},{id: "news-wrapping-up-a-full-spring-2026-colloquium-tour-iia-bengaluru-feb-10-nthu-hsinchu-mar-6-and-ncu-taoyuan-apr-10-thanks-to-the-hosts-and-audiences-for-the-discussions-tada",
+          title: 'Wrapping up a full Spring 2026 colloquium tour: IIA Bengaluru (Feb 10), NTHU...',
+          description: "",
+          section: "News",},{id: "news-may-june-travel-aprim-2026-hong-kong-may-4-8-asroc-2026-hsinchu-may-15-17-kilogas-workshop-victoria-bc-may-25-29-saint-mary-s-university-halifax-jun-1-5-casca-2026-montreal-june-8-12-get-in-touch-if-our-paths-cross-airplane",
+          title: 'May-June travel: APRIM 2026 (Hong Kong, May 4-8) → ASROC 2026 (Hsinchu, May...',
           description: "",
           section: "News",},{id: "projects-galaxy-size-evolution-with-clauds-hsc",
           title: 'Galaxy size evolution with CLAUDS + HSC',
@@ -440,7 +446,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-galaxy-quenching-with-kilogas",
-          title: 'Galaxy quenching with KiloGAS',
+          title: 'Galaxy quenching with KILOGAS',
           description: "Resolved spectroscopy of star-formation shutdown in nearby galaxies.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
