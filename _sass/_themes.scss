@@ -4,22 +4,77 @@
 @use "variables" as v;
 @use "sass:color";
 
+/* ---------------------------------------------------------------------------
+ * "Deep Field" cosmic touches.
+ * A very subtle starfield SVG is laid behind everything; in dark mode it
+ * gets brighter/warmer to feel like deep space. The about-page header gets
+ * a faint cosmic gradient overlay.
+ * ------------------------------------------------------------------------- */
+body {
+  background-image: url("/assets/img/starfield.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center top;
+}
+
+html[data-theme="dark"] body {
+  background-image:
+    radial-gradient(ellipse at 75% 10%, rgba(217, 119, 6, 0.06) 0%, transparent 45%),
+    radial-gradient(ellipse at 15% 85%, rgba(157, 200, 255, 0.05) 0%, transparent 40%),
+    url("/assets/img/starfield.svg");
+  background-blend-mode: screen, screen, normal;
+}
+
+/* About-page header: a thin cosmic ribbon behind the title */
+.post.about .post-header,
+.post[data-post-type="about"] .post-header {
+  position: relative;
+  background-image: linear-gradient(
+    180deg,
+    rgba(217, 119, 6, 0.08),
+    rgba(10, 22, 40, 0) 80%
+  );
+  border-radius: 8px;
+  padding: 1.25rem 1rem 1rem;
+}
+
+/* Footer: deeper cosmic gradient */
+footer.fixed-bottom,
+footer.sticky-bottom,
+footer {
+  position: relative;
+}
+
+footer.fixed-bottom::before,
+footer.sticky-bottom::before,
+footer::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(ellipse at 20% 0%, rgba(217, 119, 6, 0.10) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(157, 200, 255, 0.06) 0%, transparent 45%);
+  opacity: 0.9;
+}
+
 :root {
   color-scheme: light;
-  --global-bg-color: #{v.$white-color};
+  --global-bg-color: #{v.$df-cream};
   --global-code-bg-color: #{v.$code-bg-color-light};
-  --global-text-color: #{v.$black-color};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
-  --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-dark};
-  --global-footer-text-color: #{v.$grey-color-light};
-  --global-footer-link-color: #{v.$white-color};
-  --global-distill-app-color: #{v.$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{v.$white-color};
-  --global-highlight-color: #{v.$red-color-dark};
+  --global-text-color: #{v.$df-navy};
+  --global-text-color-light: #{v.$df-text-mute};
+  --global-theme-color: #{v.$df-amber};
+  --global-hover-color: #{v.$df-amber};
+  --global-hover-text-color: #{v.$df-cream};
+  --global-footer-bg-color: #{v.$df-navy};
+  --global-footer-text-color: #{v.$df-text-mute-d};
+  --global-footer-link-color: #{v.$df-cream};
+  --global-distill-app-color: #{v.$df-text-mute};
+  --global-divider-color: rgba(10, 22, 40, 0.12);
+  --global-card-bg-color: #{v.$df-cream};
+  --global-highlight-color: #{v.$df-amber};
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$black-color, "red", v.$space: rgb)},
     #{color.channel(v.$black-color, "green", v.$space: rgb)},
@@ -76,19 +131,19 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{v.$grey-color-dark};
+  --global-bg-color: #{v.$df-navy};
   --global-code-bg-color: #{v.$code-bg-color-dark};
-  --global-text-color: #{v.$grey-color-light};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
-  --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-light};
-  --global-footer-text-color: #{v.$grey-color-dark};
-  --global-footer-link-color: #{v.$black-color};
-  --global-distill-app-color: #{v.$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{v.$grey-900};
+  --global-text-color: #{v.$df-cream};
+  --global-text-color-light: #{v.$df-text-mute-d};
+  --global-theme-color: #{v.$df-amber-bright};
+  --global-hover-color: #{v.$df-amber-bright};
+  --global-hover-text-color: #{v.$df-navy};
+  --global-footer-bg-color: #{v.$df-navy-soft};
+  --global-footer-text-color: #{v.$df-text-mute-d};
+  --global-footer-link-color: #{v.$df-cream};
+  --global-distill-app-color: #{v.$df-text-mute-d};
+  --global-divider-color: rgba(251, 249, 244, 0.12);
+  --global-card-bg-color: #{v.$df-navy-soft};
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$white-color, "red", v.$space: rgb)},
     #{color.channel(v.$white-color, "green", v.$space: rgb)},

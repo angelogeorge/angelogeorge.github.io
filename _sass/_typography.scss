@@ -4,6 +4,40 @@
 
 @use "variables" as v;
 
+/* ---------------------------------------------------------------------------
+ * "Deep Field" font stack — overrides Bootstrap/MDB's Roboto default.
+ * Body uses Newsreader (serif), headings use Inter (sans-serif).
+ * Make sure the Google Fonts URL in _config.yml loads both families.
+ * ------------------------------------------------------------------------- */
+$df-body-font:    "Newsreader", Georgia, "Times New Roman", serif;
+$df-heading-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+                  "Helvetica Neue", Arial, sans-serif;
+$df-mono-font:    "JetBrains Mono", ui-monospace, SFMono-Regular,
+                  "SF Mono", Menlo, Consolas, monospace;
+
+html, body {
+  font-family: $df-body-font;
+  font-feature-settings: "kern", "liga", "ss01";
+  font-optical-sizing: auto;
+  letter-spacing: -0.005em;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar, .navbar-nav, .nav-link,
+.btn, .badge,
+.publications h2.year,
+.cv .header {
+  font-family: $df-heading-font;
+  font-feature-settings: "kern", "liga", "cv11";
+  letter-spacing: -0.012em;
+}
+
+code, kbd, pre, samp,
+.highlight, .highlighter-rouge,
+.publications .bibtex {
+  font-family: $df-mono-font;
+}
+
 p,
 h1,
 h2,

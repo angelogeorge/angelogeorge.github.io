@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: A list of refereed articles, conference proceedings, and books, ordered by year.
 nav: true
 nav_order: 2

@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /talks/
-title: talks
+title: Talks
 description: Invited talks, contributed talks, and posters.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 ## Invited Colloquia

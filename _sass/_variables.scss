@@ -32,9 +32,18 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// "Deep Field" palette — site theme by Angelo George
+$df-cream:        #fbf9f4 !default;   // warm off-white background (light mode)
+$df-navy:         #0a1628 !default;   // deep space navy (text on light, bg on dark)
+$df-navy-soft:    #122036 !default;   // softer navy for cards/footer in dark mode
+$df-amber:        #d97706 !default;   // primary accent (links, highlights)
+$df-amber-bright: #f59e0b !default;   // dark-mode accent — slightly higher luminance
+$df-text-mute:    #5b6b85 !default;   // muted secondary text (light mode)
+$df-text-mute-d:  #9aa9c2 !default;   // muted secondary text (dark mode)
+
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($df-amber, 0.07);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
