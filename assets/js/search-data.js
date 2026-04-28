@@ -452,12 +452,12 @@ ninja.data = [{
               window.location.href = "/projects/4_project/";
             },},{id: "projects-star-forming-main-sequence-in-illustristng",
           title: 'Star-forming main sequence in IllustrisTNG',
-          description: "Calibrating observational diagnostics against a state-of-the-art simulation.",
+          description: "Origin of star formation main sequence in TNG Universe using symbolic regression.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-stellar-imf-variations-with-jwst-subaru-pfs",
           title: 'Stellar IMF variations with JWST + Subaru PFS',
-          description: "Spectro-photometric constraints on the high-mass slope across galaxies.",
+          description: "Spectro-photometric constraints on the IMF slopes across galaxies.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-hidden",
