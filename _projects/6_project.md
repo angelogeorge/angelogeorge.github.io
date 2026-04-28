@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stellar IMF variations with JWST + Subaru PFS
-description: Spectro-photometric constraints on the high-mass slope across galaxies.
+description: Spectro-photometric constraints on the IMF slopes across galaxies.
 img: assets/img/9.jpg
 importance: 5
 category: observations

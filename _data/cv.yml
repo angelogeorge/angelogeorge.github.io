@@ -13,7 +13,7 @@ cv:
   summary: >
     Postdoctoral fellow in observational extragalactic astronomy at ASIAA,
     studying galaxy size and morphology evolution since z~1, environmental
-    quenching, and rest-frame UV vs. optical structural differences. PhD
+    quenching, and rest-frame UV vs. optical structural differences. PhD from 
     Saint Mary's University (Halifax, 2025).
 
   social_networks:
@@ -173,11 +173,11 @@ cv:
       - name: Programming & analysis
         level: Advanced
         icon: fa-solid fa-code
-        keywords: "Python, Shell scripting, C++"
+        keywords: "Python, Shell scripting"
       - name: Galaxy-fitting tools
         level: Expert
         icon: fa-solid fa-bullseye
-        keywords: "GALFIT, SourceXtractor++, SExtractor, PSFEx"
+        keywords: "GALFIT, GALFITM, SourceXtractor++, SExtractor, PSFEx"
       - name: Computing
         level: Proficient
         icon: fa-solid fa-server
@@ -198,4 +198,4 @@ cv:
     Interests:
       - name: Outside astronomy
         icon: fa-solid fa-leaf
-        keywords: "Nature, agriculture, painting, photography, science outreach, entrepreneurship"
+        keywords: "Nature, agriculture, cooking, painting, photography, science outreach, entrepreneurship"

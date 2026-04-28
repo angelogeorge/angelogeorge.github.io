@@ -11,29 +11,27 @@ nav_order: 4
 
 - **May 6, 2026 · APRIM 2026, Hong Kong** — Talk:
   *Two Wavelengths, Two Stories: How Bulges and Disks Grow.*
-- **May 6, 2026 · APRIM 2026, Hong Kong** — Poster:
+- **May 5-8, 2026 · APRIM 2026, Hong Kong** — Poster:
   *Environmental Effects on the Size Growth of Quiescent Galaxies from
   UV–Optical Perspectives in Clusters vs. the Field.*
-- **May 8–12, 2026 · CASCA 2026, Montreal** — Poster:
-  *Two Wavelengths, Two Components: A New View of Galaxy Growth.*
 - **May 15–17, 2026 · ASROC 2026, Hsinchu** — Talk or poster
   (pending SOC decision).
 - **May 26, 2026 · KiloGAS Workshop, Victoria (BC)** — Invited talk
   (workshop runs May 25–29).
 - **June 1–5, 2026 · Saint Mary's University, Halifax** — Research visit.
+- **June 8–12, 2026 · CASCA 2026, Montreal** — Poster:
+  *Two Wavelengths, Two Components: A New View of Galaxy Growth.*
 
 ---
 
 ## Invited Colloquia
 
-- *Two Wavelengths, Two Perspectives: UV and Optical Views of Galaxy Structure
-  and Growth Since z ~ 1.*
+- *Contrasting UV and Optical Evolution: The Structural Transformation of Galaxies Since z~1.*
   **National Central University**, Taoyuan, Taiwan, April 10, 2026.
-- *Two Wavelengths, Two Perspectives: UV and Optical Views of Galaxy Structure
-  and Growth Since z ~ 1.*
+- *Two Wavelengths, One Story: UV and Optical Views of 7 Billion Years of Galaxy Growth.*
   **National Tsing Hua University**, Hsinchu, Taiwan, March 6, 2026.
-- *Two Wavelengths, Two Perspectives: UV and Optical Views of Galaxy Structure
-  and Growth Since z ~ 1.*
+- *Two Wavelengths, Two Perspectives: UV and Optical Views of the Structural Evolution of Galaxies 
+  over the Last 7 Billion Years.*
   **Indian Institute of Astrophysics**, Bengaluru, India, February 10, 2026.
 
 ---
