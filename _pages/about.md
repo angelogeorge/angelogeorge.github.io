@@ -2,33 +2,60 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Postdoctoral Fellow · <a href="https://www.asiaa.sinica.edu.tw/">ASIAA</a>, Taipei
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><strong>Postdoctoral Fellow</strong></p>
+    <p>Academia Sinica Institute of</p>
+    <p>Astronomy &amp; Astrophysics</p>
+    <p>AS/NTU Astronomy-Mathematics Building</p>
+    <p>No. 1, Sec. 4, Roosevelt Rd.</p>
+    <p>Taipei 10617, Taiwan</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+selected_papers: true     # show "Selected Publications" card on the homepage
+social: true              # show social icons row
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: true           # show "News" card on the homepage
+  scrollable: true
+  limit: 5
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a postdoctoral fellow at the
+[Academia Sinica Institute of Astronomy and Astrophysics (ASIAA)](https://www.asiaa.sinica.edu.tw/)
+in Taipei, where I study the structural evolution of galaxies. My research traces
+how galaxies grow, change shape, and shut down their star formation across the
+last seven billion years, with a particular focus on how a galaxy's environment —
+the difference between living inside a massive cluster and drifting through the
+field — shapes that history.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Most of my work combines deep imaging from observatories like
+[Subaru](https://subarutelescope.org/),
+[CFHT](https://www.cfht.hawaii.edu/),
+[HST](https://hubblesite.org/), and
+[JWST](https://webb.nasa.gov/)
+with profile-fitting tools such as
+[GALFIT](https://users.obs.carnegiescience.edu/peng/work/galfit/galfit.html)
+and [SourceXtractor++](https://github.com/astrorama/SourceXtractorPlusPlus),
+running at scale on parallel HPC. By measuring galaxy sizes simultaneously in
+the rest-frame UV (where young stars dominate) and in the optical (which traces
+the bulk of the stellar mass), I disentangle inside-out growth from genuine
+structural transformation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+At ASIAA, I am working on three projects in parallel: characterising galaxy
+quenching with the **KiloGAS** survey, modelling the star-forming main sequence
+in the **IllustrisTNG** simulations, and probing variations of the stellar
+initial mass function using **JWST** and the **Subaru Prime Focus Spectrograph (PFS)**.
+
+Before moving to Taipei I completed my PhD (2025) and MSc (2020) at
+[Saint Mary's University](https://www.smu.ca/) in Halifax, Canada, advised by
+Drs. Ivana Damjanov and Marcin Sawicki, and a BSc in Physics with Honours from
+[Goa University](https://www.unigoa.ac.in/) in India.
+
+Outside of astronomy I'm a nature enthusiast — happiest with a camera, a
+paintbrush, or my hands in a garden.
