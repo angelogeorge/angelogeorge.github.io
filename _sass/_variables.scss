@@ -32,19 +32,21 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
-// "Deep Field" palette — site theme by Angelo George
-$df-cream:        #fbf9f4 !default;   // warm off-white background (light mode)
-$df-navy:         #0a1628 !default;   // deep space navy (text on light, bg on dark)
-$df-navy-soft:    #122036 !default;   // softer navy for cards/footer in dark mode
-$df-amber:        #d97706 !default;   // primary accent (links, highlights)
-$df-amber-bright: #f59e0b !default;   // dark-mode accent — slightly higher luminance
-$df-text-mute:    #5b6b85 !default;   // muted secondary text (light mode)
-$df-text-mute-d:  #9aa9c2 !default;   // muted secondary text (dark mode)
+// "Editorial" palette — Vogue-style serif + warm beige/copper.
+// All theme variables in _themes.scss reference these.
+$df-cream:        #f3ede0 !default;   // parchment beige (light bg)
+$df-cream-soft:   #ede4d2 !default;   // slightly darker beige for cards
+$df-navy:         #14110d !default;   // warm near-black (light text / dark bg)
+$df-navy-soft:    #1f1a14 !default;   // softer warm-black for dark-mode cards/footer
+$df-amber:        #b08968 !default;   // primary accent — sienna copper
+$df-amber-bright: #d4a373 !default;   // dark-mode accent — lifted copper
+$df-text-mute:    #7d6f64 !default;   // muted secondary text (light)
+$df-text-mute-d:  #9c8d7e !default;   // muted secondary text (dark)
 
 // Theme colors
 
-$code-bg-color-light: rgba($df-amber, 0.07);
-$code-bg-color-dark: #2c3237 !default;
+$code-bg-color-light: rgba($df-amber, 0.10);
+$code-bg-color-dark: #2c2419 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";

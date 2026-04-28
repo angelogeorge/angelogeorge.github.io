@@ -5,37 +5,73 @@
 @use "variables" as v;
 
 /* ---------------------------------------------------------------------------
- * "Deep Field" font stack — overrides Bootstrap/MDB's Roboto default.
- * Body uses Newsreader (serif), headings use Inter (sans-serif).
- * Make sure the Google Fonts URL in _config.yml loads both families.
+ * "Editorial" font stack — Vogue-style serif palette.
+ * - Body  : Cormorant Garamond  (elegant transitional serif, magazine body)
+ * - Heads : Playfair Display    (high-contrast Didone, masthead-feeling)
+ * - UI    : Inter               (clean sans for navbar/buttons/badges)
+ * - Code  : JetBrains Mono
+ * Make sure the Google Fonts URL in _config.yml loads all families.
  * ------------------------------------------------------------------------- */
-$df-body-font:    "Newsreader", Georgia, "Times New Roman", serif;
-$df-heading-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+$df-body-font:    "Cormorant Garamond", "EB Garamond", Georgia, "Times New Roman", serif;
+$df-heading-font: "Playfair Display", "Cormorant Garamond", Georgia, "Times New Roman", serif;
+$df-ui-font:      "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
                   "Helvetica Neue", Arial, sans-serif;
 $df-mono-font:    "JetBrains Mono", ui-monospace, SFMono-Regular,
                   "SF Mono", Menlo, Consolas, monospace;
 
 html, body {
   font-family: $df-body-font;
-  font-feature-settings: "kern", "liga", "ss01";
+  font-weight: 450;            // Cormorant default is light; lift slightly for body
+  font-size: 1.075rem;         // serif compensation — Cormorant runs small
+  line-height: 1.7;
+  font-feature-settings: "kern", "liga", "onum", "smcp";
   font-optical-sizing: auto;
-  letter-spacing: -0.005em;
+  letter-spacing: 0.005em;
 }
 
 h1, h2, h3, h4, h5, h6,
-.navbar, .navbar-nav, .nav-link,
-.btn, .badge,
 .publications h2.year,
 .cv .header {
   font-family: $df-heading-font;
-  font-feature-settings: "kern", "liga", "cv11";
-  letter-spacing: -0.012em;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  font-feature-settings: "kern", "liga", "lnum";
+}
+
+h1 { font-weight: 700; }
+h2 { font-weight: 600; }
+
+/* Navbar, badges, buttons: clean sans for editorial UI feel */
+.navbar, .navbar-nav, .nav-link, .navbar-brand,
+.btn, .badge,
+.tab-content > .tab-pane > h2,
+.dropdown-menu {
+  font-family: $df-ui-font;
+  letter-spacing: 0.02em;
+}
+
+.navbar-nav .nav-link {
+  text-transform: none;
+  font-weight: 500;
+  font-size: 0.95rem;
 }
 
 code, kbd, pre, samp,
 .highlight, .highlighter-rouge,
 .publications .bibtex {
   font-family: $df-mono-font;
+  font-size: 0.92em;
+}
+
+/* Drop caps + small caps lift the editorial feel a touch */
+.post.about > p:first-of-type::first-letter {
+  font-family: $df-heading-font;
+  float: left;
+  font-size: 3.6em;
+  line-height: 0.85;
+  padding: 0.05em 0.12em 0 0;
+  font-weight: 700;
+  color: var(--global-theme-color);
 }
 
 p,
