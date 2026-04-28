@@ -1,14 +1,34 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: you@example.com # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
+# =============================================================================
+# Social-icon configuration — drives the row of icons in the navbar and the
+# bottom of the about page. Add a line to enable an icon, leave blank/comment
+# out to hide it.
+# =============================================================================
+
+cv_pdf:            /assets/pdf/CV_George_Angelo.pdf   # link target of the CV icon
+email:             ageorge@asiaa.sinica.edu.tw
+
+# Academic IDs — fill in once you have them, leave blank to hide:
+orcid_id:        0009-0009-2742-7702
+scholar_userid:   oTFgeTAAAAAJ                                 # the long alphanumeric Google Scholar ID
 rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# inspirehep_id:                                     # if you use Inspire HEP
+# semanticscholar_id:
+# researchgate_profile:
+# osf_id:
+
+# General socials:
+github_username:   angelogeorge
+linkedin_username: angelo-george
+# twitter_username:
+# mastodon_username:                                  # e.g. you@mastodon.social
+# bluesky_url:                                        # e.g. https://bsky.app/profile/you.bsky.social
+# medium_username:
+# youtube_id:
+
+rss_icon:          true                               # show the RSS feed icon
+
+# Optional custom social — uncomment and fill if you want a non-listed network
+# custom_social:
+#   logo: https://example.com/logo.png
+#   title: Custom Network
+#   url: https://example.com/profile
