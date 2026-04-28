@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -17,25 +17,18 @@ ninja.data = [{
             window.location.href = "/blog/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "A list of refereed articles, conference proceedings, and books, ordered by year.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-research",
+          title: "Research",
+          description: "Active and recent research projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-talks",
-          title: "talks",
-          description: "Invited talks, contributed talks, and posters.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/talks/";
           },
         },{id: "nav-repositories",
           title: "repositories",
@@ -44,19 +37,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "Invited talks, contributed talks, and posters.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "Courses taught and lab demonstrations led at Saint Mary&#39;s University.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "An overview of my background, publications, talks and service.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
           },
         },{id: "nav-people",
           title: "people",
@@ -459,49 +459,49 @@ ninja.data = [{
           section: "News",},{id: "news-invited-colloquia-confirmed-at-national-tsing-hua-university-hsinchu-and-national-central-university-taoyuan-in-2026-topics-tbd-come-say-hi-wave",
           title: 'Invited colloquia confirmed at National Tsing Hua University (Hsinchu) and National Central University...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-galaxy-size-evolution-with-clauds-hsc",
+          title: 'Galaxy size evolution with CLAUDS + HSC',
+          description: "Two-wavelength structural analysis of galaxies in COSMOS since z ~ 1.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-environment-amp-galaxy-size-growth",
+          title: 'Environment &amp;amp; galaxy size growth',
+          description: "Comparing quiescent galaxies in clusters vs. the field at two rest-frame wavelengths.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-bulge-disk-morphology-in-uv-vs-optical",
+          title: 'Bulge+Disk morphology in UV vs. optical',
+          description: "Distinct growth tracks for star-forming and quiescent galaxies.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-galaxy-quenching-with-kilogas",
+          title: 'Galaxy quenching with KiloGAS',
+          description: "Resolved spectroscopy of star-formation shutdown in nearby galaxies.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-star-forming-main-sequence-in-illustristng",
+          title: 'Star-forming main sequence in IllustrisTNG',
+          description: "Calibrating observational diagnostics against a state-of-the-art simulation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-stellar-imf-variations-with-jwst-subaru-pfs",
+          title: 'Stellar IMF variations with JWST + Subaru PFS',
+          description: "Spectro-photometric constraints on the high-mass slope across galaxies.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-hidden",
+          title: 'hidden',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-hidden",
+          title: 'hidden',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-hidden",
+          title: 'hidden',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{id: "teachings-data-science-fundamentals",
