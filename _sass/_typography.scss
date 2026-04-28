@@ -29,7 +29,7 @@ html, body {
   letter-spacing: 0.005em;
 }
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h5,
 .publications h2.year,
 .cv .header {
   font-family: $df-heading-font;
@@ -40,6 +40,21 @@ h1, h2, h3, h4, h5, h6,
 
 h1 { font-weight: 700; }
 h2 { font-weight: 600; }
+
+/* h6 is used in al-folio for inline CV text (company name, summary line);
+ * keep it on the body serif at body weight, but allow Bootstrap's
+ * .font-weight-bold class to bold the position-title h6 specifically. */
+h6 {
+  font-family: $df-body-font;
+  font-weight: 450;
+  letter-spacing: normal;
+}
+h6.font-weight-bold,
+h6.title {
+  font-family: $df-heading-font;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
 
 /* Navbar: same serif family as the body, just lighter weight + tighter
  * tracking. Matches the rest of the page so it doesn't read "off". */

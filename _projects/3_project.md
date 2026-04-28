@@ -35,8 +35,3 @@ The results are consistent with merger/accretion-driven growth of bulge componen
 [Download the ApJ-submitted draft (PDF)]({{ '/assets/pdf/bulge_disk_draft.pdf' | relative_url }})
 &nbsp;·&nbsp; Submitted to ApJ · expected acceptance Q4 2026.
 
-> **How to attach this PDF on your end:** drop the file at
-> `site/assets/pdf/bulge_disk_draft.pdf`. The link above will pick it up
-> automatically on the next build. Same trick works for any other paper
-> draft — just save under `assets/pdf/` and reference with
-> `[Title]({{ '/assets/pdf/your_file.pdf' | relative_url }})`.
