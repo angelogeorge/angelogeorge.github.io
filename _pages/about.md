@@ -51,7 +51,7 @@ structural transformation.
 At ASIAA, I am working on three projects in parallel: characterising galaxy
 quenching with the [KILOGAS](https://kilogas.space/) survey, modelling the star-forming main sequence
 in the [IllustrisTNG](https://www.tng-project.org/) simulations, and probing variations of the stellar
-initial mass function using **JWST** and the **Subaru Prime Focus Spectrograph (PFS)**.
+initial mass function (IMF) using **JWST** and the **Subaru Prime Focus Spectrograph (PFS)**.
 
 Before moving to Taipei I completed my PhD (2025) and MSc (2020) at
 [Saint Mary's University](https://www.smu.ca/) in Halifax, Canada, advised by
