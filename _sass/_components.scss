@@ -142,6 +142,21 @@ ul.task-list input[type="checkbox"] {
     img {
       width: 100%;
     }
+
+    /* Uniform aspect ratio + center-crop on every project thumbnail.
+     * Source images have different native ratios (a Hubble Sombrero is more
+     * landscape than an HSC field), which makes the cards different heights.
+     * 4:3 with object-fit:cover gives consistent tile heights without
+     * distorting any image.  */
+    img.card-img-top,
+    .card-img-top img,
+    picture.card-img-top img {
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: auto;
+    }
   }
 
   .col {

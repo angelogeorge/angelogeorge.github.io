@@ -16,10 +16,10 @@ nav_order: 4
   UV–Optical Perspectives in Clusters vs. the Field.*
 - **May 15–17, 2026 · ASROC 2026, Hsinchu** — Talk or poster
   (pending SOC decision).
-- **May 26, 2026 · KiloGAS Workshop, Victoria (BC)** — Invited talk
+- **May 26, 2026 · KILOGAS Workshop, Victoria (BC)** — Talk
   (workshop runs May 25–29).
 - **June 1–5, 2026 · Saint Mary's University, Halifax** — Research visit.
-- **June 8–12, 2026 · CASCA 2026, Montreal** — Poster:
+- **June 8–12, 2026 · CASCA 2026, Montreal** — Talk:
   *Two Wavelengths, Two Components: A New View of Galaxy Growth.*
 
 ---
