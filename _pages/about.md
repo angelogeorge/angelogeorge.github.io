@@ -54,6 +54,11 @@ initial mass function (IMF) using **JWST** and the **Subaru Prime Focus Spectrog
 disentangling the effects of various physical processes in the galaxy size–mass plane using [IllustrisTNG](https://www.tng-project.org/) simulations, 
 and modelling the star-forming main sequence in the TNG Universe.
 
+In Summer 2026 I am mentoring two undergraduate researchers — **Brian Sng**
+(Durham University) and **Cheng-Te Chung** (National Tsing Hua University) —
+as part of the **ASIAA Summer Student Program**, on galaxy size evolution and
+the radial distribution of star formation in cosmological simulations.
+
 Before moving to Taipei I completed my PhD (2025) and MSc (2020) at
 [Saint Mary's University](https://www.smu.ca/) in Halifax, Canada, advised by
 Drs. Ivana Damjanov and Marcin Sawicki, and a BSc in Physics with Honours from

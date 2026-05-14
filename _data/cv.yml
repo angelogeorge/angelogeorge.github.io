@@ -11,12 +11,14 @@ cv:
   location: Taipei, Taiwan
   image: ""
   summary: >
-    Postdoctoral fellow in observational extragalactic astronomy at ASIAA,
-    studying galaxy size and morphology evolution since z~1, environmental
-    quenching, and rest-frame UV vs. optical structural differences. PhD from 
-    Saint Mary's University (Halifax, 2025).
+    Observational extragalactic astronomer at ASIAA studying galaxy size and
+    morphology evolution since z ∼ 1, environmental quenching, and rest-frame
+    UV vs. optical structural transformation. PhD from Saint Mary's University
+    (Halifax, 2025).
 
   social_networks:
+    - network: ORCID
+      username: 0009-0009-2742-7702
     - network: GitHub
       username: angelogeorge
     - network: LinkedIn
@@ -50,9 +52,8 @@ cv:
         studyType: M.Sc.
         start_date: 2018
         end_date: 2020
-        courses: "Evolution of galaxy morphology in the field and cluster environment since z ~ 1"
-        highlights:
-          - "Advisors: Ivana Damjanov, Marcin Sawicki."
+        courses: "Evolution of galaxy morphology in the field and cluster environment since z ∼ 1 (Advisors: Ivana Damjanov, Marcin Sawicki)"
+        highlights: []
 
       - institution: Goa University
         location: Goa, India
@@ -61,9 +62,9 @@ cv:
         studyType: B.Sc.
         start_date: 2014
         end_date: 2017
-        courses: "Understanding of the Sub-atomic World (Advisor: Ananya Das)"
+        courses: "Understanding the Sub-atomic World (Advisor: Ananya Das)"
         highlights:
-          - "Graduated with Honours; Physics Medal for highest score in 2017 graduating class."
+          - "Graduated with Honours; Physics Medal for highest score in Physics in the 2017 graduating class."
 
       - institution: Gyandhara Institute of Philosophy
         location: Goa, India
@@ -71,136 +72,186 @@ cv:
         studyType: Diploma
         start_date: 2012
         end_date: 2014
-        courses: "Views of Thomas Aquinas on the Immaculate Conception"
+        courses: "Views of Thomas Aquinas on the Immaculate Conception (Advisor: Fr. Daniel Veigas)"
         highlights:
-          - "First Rank in graduating class."
+          - "First Rank in the 2014 graduating class."
 
     Experience:
-      - company: Academia Sinica Institute of Astronomy &amp; Astrophysics (ASIAA)
+      - company: Academia Sinica Institute of Astronomy & Astrophysics (ASIAA)
         position: Postdoctoral Fellow
         location: Taipei, Taiwan
         start_date: 2025
         end_date: present
-        summary: Member of the galaxy-evolution group; lead investigator on three projects.
+        summary: Member of the ASIAA galaxy-evolution group; lead investigator on three projects.
         highlights:
-          - "Investigating galaxy quenching using the KiloGAS dataset."
-          - "Modelling the star-forming main sequence in IllustrisTNG simulations."
-          - "Probing variations in the stellar IMF using JWST and Subaru PFS."
+          - "Lead investigator on the connection between galaxy structure and quenching using the KILOGAS survey of nearby star-forming galaxies."
+          - "Probing variations in the stellar initial mass function (IMF) with JWST/NIRSpec and Subaru/PFS."
+          - "Modelling the star-forming main sequence and structural drivers of size-mass evolution using IllustrisTNG."
 
-      - company: Saint Mary's University
-        position: Instructor
+      - company: Saint Mary's University — Department of Astronomy & Physics
+        position: Course Instructor
         location: Halifax, NS, Canada
         start_date: 2023
         end_date: 2025
+        summary: Instructor of record for second-year B.Sc. Physics laboratory courses.
         highlights:
-          - "Taught second-year B.Sc. Physics."
-          - "Led labs in Electricity &amp; Magnetism and Thermodynamics."
+          - "PHYS 2300 Electricity & Magnetism Laboratory."
+          - "PHYS 2400 Thermodynamics Laboratory."
 
-      - company: Saint Mary's University
-        position: Teaching Assistant
+      - company: Saint Mary's University — Department of Astronomy & Physics
+        position: Graduate Teaching Assistant
         location: Halifax, NS, Canada
         start_date: 2018
         end_date: 2024
-        highlights:
-          - "Lab demonstration; grading of assignments and lab reports."
+        summary: Six years of TA experience across introductory and second-year physics laboratories, problem-solving sessions, and grading.
+        highlights: []
+
+    Observing Programs:
+      - label: "PI · Magellan/ROSIE (Baade 6.5 m), 2026B — 1.0 night"
+        details: "Galaxy Cluster Selection via Emission Line Galaxies: Preparing for the Prime Focus Spectrograph Cosmology Survey."
+      - label: "PI · Magellan/ROSIE (Baade 6.5 m), 2026B — 0.5 nights"
+        details: "Beyond Field Gas Scaling Laws: Empirical CO Predictions versus Actual CO Observations in Cluster Environments Over Cosmic Time."
+      - label: "Collaborator on large imaging and spectroscopic surveys"
+        details: "JWST, CFHT (CLAUDS), Subaru/HSC-SSP, Subaru/PFS, ALMA, MaNGA, SAMI."
 
     Awards:
       - title: Durland Family Chancellor's Doctoral Convocation Award
         date: 2025
         awarder: Saint Mary's University
-        summary: Awarded for the successful defence of the Ph.D. dissertation and approval for graduation. Monetary value of C$2,000.
-        
-      - title: Research fellowship from Faculty NSERC research grants 
-        date: 2018-2025
-        awarder: Saint Mary's University
-        summary: Monetary value of C$84,459.
-
-      - title: Faculty of Graduate Studies & Research Fellowship
-        date: 2018-2024
-        awarder: Saint Mary's University
-        summary: Monetary value of C$48,000.
+        summary: Conferred upon successful defence and approval of the Ph.D. dissertation. Value CA$2,000.
 
       - title: Faculty of Graduate Studies & Research Graduate Award
         date: 2018-2024
         awarder: Saint Mary's University
-        summary: Monetary value of C$67,946.
+        summary: Multi-year merit-based award supporting doctoral research. Cumulative value CA$67,946.
+
+      - title: Faculty of Graduate Studies & Research Fellowship
+        date: 2018-2024
+        awarder: Saint Mary's University
+        summary: Competitive fellowship recognising research excellence among graduate students. Cumulative value CA$48,000.
+
+      - title: NSERC Discovery Grant Research Fellowship
+        date: 2018-2024
+        awarder: Saint Mary's University
+        summary: Research fellowship funded through faculty NSERC Discovery Grants. Cumulative value CA$84,459.
 
       - title: People's Choice Award
         date: 2021
         awarder: Saint Mary's University
-        summary: Best science communicator (audience poll).
+        summary: Best science communicator across the Faculty of Science (audience poll).
 
       - title: Physics Medal
         date: 2017
         awarder: Smt. Parvatibai Chowgule College of Arts and Science (Goa University)
-        summary: Highest score in Physics among the 2017 graduating class.
+        summary: Highest score in Physics in the 2017 graduating class.
 
       - title: First Rank
         date: 2014
         awarder: Gyandhara Institute of Philosophy
-        summary: Highest grades in Philosophy among the 2014 graduating class.
+        summary: Highest grades in Philosophy in the 2014 graduating class.
 
-    Volunteer:
-      - company: Graduate Advisory Committee (Saint Mary's University)
-        position: Member
+    Mentoring:
+      - label: "Brian Sng (Durham University) · ASIAA SSP 2026"
+        details: "How Do Galaxies Grow? Tracking Size Evolution in Simulated Galaxies."
+      - label: "Cheng-Te Chung (National Tsing Hua University) · ASIAA SSP 2026"
+        details: "Why Do Galaxies Stop Forming Stars? A Radial View of Star Formation in Cosmological Simulations."
+      - label: "Undergraduate Research Mentor"
+        details: "Informal mentoring of summer research students in the Damjanov / Sawicki group, Saint Mary's University."
+
+    Service:
+      - company: Academia Sinica Institute of Astronomy & Astrophysics
+        position: Lunch-Talk Co-organiser
+        location: Taipei, Taiwan
+        start_date: 2025
+        end_date: present
+        summary: One of three organisers coordinating ASIAA's weekly lunch-talk series.
+        highlights: []
+
+      - company: Academia Sinica Institute of Astronomy & Astrophysics
+        position: Colloquium Committee Member
+        location: Taipei, Taiwan
+        start_date: 2025
+        end_date: present
+        summary: Contribute to the selection, invitation, and hosting of external colloquium speakers.
+        highlights: []
+
+      - company: International astronomy journals
+        position: Referee
+        start_date: 2024
+        end_date: present
+        summary: Peer review of submitted manuscripts in galaxy evolution and extragalactic astronomy.
+        highlights: []
+
+      - company: Saint Mary's University — Graduate Advisory Committee
+        position: Member (Faculty of Science representative)
         location: Halifax, NS, Canada
         start_date: 2024
         end_date: 2025
-        summary: Sole science representative; advised on graduate-student welfare and DEI strategy.
+        summary: Sole representative from the Faculty of Science; advised the University on graduate-student welfare and the implementation of Diversity, Equity, and Inclusion (DEI) strategies.
+        highlights: []
 
-      - company: CNIB
+    Volunteer:
+      - company: CNIB (Canadian National Institute for the Blind)
         position: Vision Mate
         location: Halifax, NS, Canada
         start_date: 2023
         end_date: 2025
-        summary: Volunteer companion for a person with vision loss; assistance with daily activities.
+        summary: Long-term volunteer companion supporting a community member with vision loss.
+        highlights: []
 
       - company: Knights of Columbus
         position: Volunteer Knight
         location: Halifax, NS, Canada
         start_date: 2019
         end_date: 2025
-        summary: Organised fund-raising events for local charities and food drives.
+        summary: Organised fund-raising for local charities, food drives, and support for the unhoused.
+        highlights: []
 
       - company: Saint Benedict Parish
         position: Volunteer & Catechist
         location: Halifax, NS, Canada
         start_date: 2019
         end_date: 2025
-        summary: Parish choir, adult faith-formation, faith–science outreach.
+        summary: Liturgical and community service, adult faith formation, and faith–science outreach.
+        highlights: []
 
-      - company: Burke-Gaffney Observatory
+      - company: Burke-Gaffney Observatory, Saint Mary's University
         position: Public Tour Guide
         location: Halifax, NS, Canada
         start_date: 2018
         end_date: 2025
-        summary: Led guided observatory tours and operated telescopes for the public.
+        summary: Led public observatory tours and narrated live observations of the Moon, planets, and bright deep-sky objects for general-audience visitors.
+        highlights: []
 
     Skills:
       - name: Programming & analysis
         level: Advanced
         icon: fa-solid fa-code
-        keywords: "Python, Shell scripting"
-      - name: Galaxy-fitting tools
+        keywords: "Python (NumPy, SciPy, pandas, AstroPy, Matplotlib), Shell scripting"
+      - name: Galaxy-fitting & imaging tools
         level: Expert
         icon: fa-solid fa-bullseye
         keywords: "GALFIT, GALFITM, SourceXtractor++, SExtractor, PSFEx"
-      - name: Computing
+      - name: High-performance computing
         level: Proficient
         icon: fa-solid fa-server
-        keywords: "HPC, parallel pipelines, cloud computing"
+        keywords: "Parallel pipelines, SLURM job arrays, multi-core optimisation, cloud computing"
       - name: Methods
         level: Advanced
         icon: fa-solid fa-chart-line
-        keywords: "Sérsic profile fitting, bulge–disk decomposition, image-simulation error characterisation, multi-wavelength size analysis"
+        keywords: "Single- and multi-Sérsic profile fitting, bulge–disk decomposition, image-simulation-based error characterisation, multi-wavelength size analyses"
+      - name: Other languages
+        level: Intermediate
+        icon: fa-solid fa-terminal
+        keywords: "C++"
 
     Languages:
       - name: Malayalam
         summary: Native speaker
       - name: English
-        summary: Full professional proficiency
+        summary: Full professional proficiency (research, teaching, publication)
       - name: Hindi
-        summary: Basic
+        summary: Basic conversational
 
     Interests:
       - name: Outside astronomy
