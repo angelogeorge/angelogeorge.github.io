@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoctoral Fellow · <a href="https://www.asiaa.sinica.edu.tw/">ASIAA</a>, Taipei
+subtitle: Postdoctoral Fellow · <a href="https://www.asiaa.sinica.edu.tw/">ASIAA</a>, Taipei <br><em>Ex astris, veritas.</em>
 
 profile:
   align: right
