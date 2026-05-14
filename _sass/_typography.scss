@@ -101,6 +101,15 @@ code, kbd, pre, samp,
   color: var(--global-theme-color);
 }
 
+/* Personal motto on the homepage — coloured + lightly tracked
+ * to read as a tagline rather than body copy. */
+.motto {
+  color: var(--global-theme-color);
+  font-style: italic;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+
 p,
 h1,
 h2,
