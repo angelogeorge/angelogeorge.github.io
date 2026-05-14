@@ -110,6 +110,18 @@ code, kbd, pre, samp,
   font-weight: 500;
 }
 
+/* Footer text uses a separate colour token (--global-footer-text-color /
+ * --global-footer-link-color) and stays cream-on-warm-black in both modes.
+ * The generic `em { color: var(--global-text-color) }` rule above would
+ * otherwise force the Latin motto to use the GLOBAL text colour, which is
+ * dark in light mode → invisible against the dark footer. Override so the
+ * motto inherits the footer link colour and stays readable. */
+footer em,
+footer.fixed-bottom em,
+footer.sticky-bottom em {
+  color: var(--global-footer-link-color);
+}
+
 p,
 h1,
 h2,
