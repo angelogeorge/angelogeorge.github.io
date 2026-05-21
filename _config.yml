@@ -18,7 +18,7 @@ footer_text: >
   hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔭 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ag_logo.png # favicon — image in /assets/img/ (use an emoji here instead for an emoji favicon)
 
 url: https://angelogeorge.com #https://angelogeorge.github.io # the base hostname & protocol for your site
 baseurl:   # MUST be empty (delete the "/al-folio") #/al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
