@@ -15,6 +15,7 @@ profile:
     <p>AS/NTU Astronomy-Mathematics Building</p>
     <p>No. 1, Sec. 4, Roosevelt Rd.</p>
     <p>Taipei 10617, Taiwan</p>
+    <img class="about-logo" src="/assets/img/ag_logo.png" alt="Angelo George — Ex astris, veritas" />
 
 selected_papers: true     # show "Selected Publications" card on the homepage
 social: true              # show social icons row

@@ -104,6 +104,16 @@ footer > * {
   display: inline-block;
 }
 
+/* "Personal seal" — logo under the profile photo + address on the About page. */
+.about-logo {
+  display: block;
+  width: 140px;
+  max-width: 70%;
+  height: auto;
+  margin: 1.1rem auto 0.2rem;
+  opacity: 0.95;
+}
+
 /* Side astronomy strips — only on wide screens, where there's empty
  * margin to the left and right of the centered content column. */
 @media (min-width: 1400px) {
