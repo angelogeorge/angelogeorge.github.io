@@ -9,18 +9,10 @@ nav_order: 4
 
 ## Upcoming
 
-- **May 6, 2026 · APRIM 2026, Hong Kong** — Talk:
-  *Two Wavelengths, Two Stories: How Bulges and Disks Grow.*
-- **May 5-8, 2026 · APRIM 2026, Hong Kong** — Poster:
-  *Environmental Effects on the Size Growth of Quiescent Galaxies from
-  UV–Optical Perspectives in Clusters vs. the Field.*
-- **May 15–17, 2026 · ASROC 2026, Hsinchu** — Talk or poster
-  (pending SOC decision).
-- **May 26, 2026 · KILOGAS Workshop, Victoria (BC)** — Talk
-  (workshop runs May 25–29).
-- **June 1–5, 2026 · Saint Mary's University, Halifax** — Research visit.
-- **June 8–12, 2026 · CASCA 2026, Montreal** — Talk:
-  *Two Wavelengths, Two Components: A New View of Galaxy Growth.*
+- **Late August 2026 · Seoul National University, Korea** — Oral presentation
+  at a galaxy-evolution conference (title to be announced).
+- **October 13–19, 2026 · Kavli IPMU, University of Tokyo, Japan** —
+  Research visit, hosted by Prof. John Silverman.
 
 ---
 
@@ -45,6 +37,12 @@ nav_order: 4
 
 ## Contributed Oral Talks
 
+- *Two Wavelengths, Two Components: A New View of Galaxy Growth.*
+  **CASCA 2026**, Montréal, Canada, June 2026.
+- Contributed talk on galaxy quenching with KILOGAS.
+  **KILOGAS Workshop 2026**, Victoria, BC, Canada, May 2026.
+- *Two Wavelengths, Two Stories: How Bulges and Disks Grow.*
+  **APRIM 2026** (Asia–Pacific Regional IAU Meeting), Hong Kong, May 2026.
 - *Structural Evolution of Galaxies: UV vs. Optical.*
   **Symposium for Early Career Astronomers, ASIAA**, Taipei, 2025.
 - *Evolution of Massive Quiescent Galaxies in Clusters and Field.*
@@ -58,6 +56,9 @@ nav_order: 4
 
 ## Posters
 
+- *Environmental Effects on the Size Growth of Quiescent Galaxies from
+  UV–Optical Perspectives in Clusters vs. the Field.*
+  **APRIM 2026**, Hong Kong, May 2026.
 - *Unveiling the Size Growth of Quiescent Galaxies: Environmental Effects
   from UV–Optical Perspectives in Clusters vs. the Field.*
   **CL2025 — 1st East Asian Workshop on Galaxy Clusters**, ASIAA, Taipei, 2025.
@@ -65,3 +66,11 @@ nav_order: 4
   **DEEP24**, Sintra, Portugal, 2024.
 - *Evolution of Galaxy Morphology Since z ~ 1.*
   **CASCA 2022**, Waterloo, Canada, 2022.
+
+---
+
+## Research Visits
+
+- **Kavli IPMU, University of Tokyo**, Japan — October 13–19, 2026
+  (host: Prof. John Silverman). *Upcoming.*
+- **Saint Mary's University**, Halifax, Canada — June 1–5, 2026.
