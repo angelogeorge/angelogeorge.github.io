@@ -5,7 +5,7 @@ permalink: /projects/
 description: Active and recent research projects.
 nav: true
 nav_order: 3
-display_categories: [observations, simulations]
+display_categories: [methods, observations, simulations]
 horizontal: false
 ---
 
