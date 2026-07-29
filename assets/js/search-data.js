@@ -123,8 +123,8 @@ ninja.data = [{
           description: "Spectro-photometric constraints on the IMF slopes across galaxies.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-spade-a-joint-spectro-photometric-decomposition-engine",
-          title: 'SPADE — a joint spectro-photometric decomposition engine',
+            },},{id: "projects-sp-de-a-joint-spectro-photometric-decomposition-engine",
+          title: 'SP♤DE — a joint spectro-photometric decomposition engine',
           description: "Fitting imaging, stellar kinematics and stellar populations under one likelihood to separate classical bulges from pseudobulges.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
