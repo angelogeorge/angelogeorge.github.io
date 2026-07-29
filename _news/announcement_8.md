@@ -5,7 +5,8 @@ inline: true
 related_posts: false
 ---
 
-Autumn travel: an oral presentation at a galaxy-evolution conference at
-**Seoul National University** (Korea) in late August, then a research visit to
+Autumn travel: a contributed talk at the
+[**12th Galaxy Evolution Workshop**](https://sites.google.com/view/12th-galaxy-evolution-workshop/)
+at Seoul National University (Aug 24–28), then a research visit to
 **Kavli IPMU**, University of Tokyo (Oct 13–19), hosted by John Silverman.
 :milky_way:

@@ -111,6 +111,8 @@ cv:
         details: "Galaxy Cluster Selection via Emission Line Galaxies: Preparing for the Prime Focus Spectrograph Cosmology Survey."
       - label: "PI · Magellan/ROSIE (Baade 6.5 m), 2026B — 0.5 nights"
         details: "Beyond Field Gas Scaling Laws: Empirical CO Predictions versus Actual CO Observations in Cluster Environments Over Cosmic Time."
+      - label: "Co-I · Gemini South, GS-2026B-Q-104 — 5.4 hr, Band 1"
+        details: "Testing Molecular Gas Scaling Relations in z ~ 1.4 Galaxy Clusters with ALMA and Gemini (PI: Rogério Monteiro-Oliveira)."
       - label: "Collaborator on large imaging and spectroscopic surveys"
         details: "JWST, CFHT (CLAUDS), Subaru/HSC-SSP, Subaru/PFS, ALMA, MaNGA, SAMI."
 

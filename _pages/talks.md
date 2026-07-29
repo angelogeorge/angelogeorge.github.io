@@ -9,10 +9,14 @@ nav_order: 4
 
 ## Upcoming
 
-- **Late August 2026 · Seoul National University, Korea** — Oral presentation
-  at a galaxy-evolution conference (title to be announced).
+- **August 24–28, 2026 · [12th Galaxy Evolution Workshop](https://sites.google.com/view/12th-galaxy-evolution-workshop/),
+  Seoul National University, Korea** — Contributed talk:
+  *From Structural Growth to Quenching: Bulge–Disk Decomposition Across Cosmic
+  Time and the Local Resolved ISM.*
 - **October 13–19, 2026 · Kavli IPMU, University of Tokyo, Japan** —
-  Research visit, hosted by Prof. John Silverman.
+  Research visit (host: Prof. John Silverman). Seminar:
+  *Contrasting UV and Optical Evolution: The Structural Transformation of
+  Galaxies Since z ~ 1.*
 
 ---
 
@@ -74,3 +78,17 @@ nav_order: 4
 - **Kavli IPMU, University of Tokyo**, Japan — October 13–19, 2026
   (host: Prof. John Silverman). *Upcoming.*
 - **Saint Mary's University**, Halifax, Canada — June 1–5, 2026.
+
+---
+
+## Observing Programs
+
+- **Gemini South / GS-2026B-Q-104** — *Testing Molecular Gas Scaling Relations
+  in z ~ 1.4 Galaxy Clusters with ALMA and Gemini.* Co-I (PI: Rogério
+  Monteiro-Oliveira). 5.4 hr awarded, scientific ranking Band 1.
+- **Magellan / ROSIE (Baade 6.5 m), 2026B** — *Galaxy Cluster Selection via
+  Emission Line Galaxies: Preparing for the Prime Focus Spectrograph Cosmology
+  Survey.* PI. 1.0 night.
+- **Magellan / ROSIE (Baade 6.5 m), 2026B** — *Beyond Field Gas Scaling Laws:
+  Empirical CO Predictions versus Actual CO Observations in Cluster
+  Environments Over Cosmic Time.* PI. 0.5 nights.
