@@ -1,15 +1,15 @@
 ---
 layout: page
-title: SPADE — a joint spectro-photometric decomposition engine
+title: SP♤DE — a joint spectro-photometric decomposition engine
 description: Fitting imaging, stellar kinematics and stellar populations under one likelihood to separate classical bulges from pseudobulges.
 img: assets/img/7.jpg
 importance: 1
 category: methods
 ---
 
-**SPADE** — the *Spectro-Photometric Analytic Decomposition Engine* — is a
+**SP♤DE** — the *Spectro-Photometric Analytic Decomposition Engine* — is a
 bulge+disk decomposition code I developed at ASIAA. Where conventional
-decompositions fit a single image, SPADE fits **imaging, stellar kinematics and
+decompositions fit a single image, SP♤DE fits **imaging, stellar kinematics and
 stellar populations simultaneously under one joint likelihood**, so that a
 galaxy's velocity dispersion and stellar ages *actively constrain* its
 structural decomposition rather than being read off afterwards.
@@ -25,7 +25,7 @@ which kind of bulge?*
 
 Separating them reliably is hard, because the distinguishing evidence lives in
 three different datasets. Photometry alone cannot see that a bulge is
-dynamically hot; kinematics alone cannot see that it is old. SPADE's answer is
+dynamically hot; kinematics alone cannot see that it is old. SP♤DE's answer is
 to stop treating them as separate measurements.
 
 ### How it works
@@ -54,13 +54,13 @@ provides uncertainties, with full NUTS posteriors as the next tier.
 Existing tools solve part of this problem. **BUDDI** decomposes an IFU cube
 photometrically, wavelength slice by wavelength slice, and extracts component
 spectra as a post-processing step — the spectra never inform the structural fit.
-**GALFIT** fits a single image by least squares. SPADE instead evaluates a
+**GALFIT** fits a single image by least squares. SP♤DE instead evaluates a
 Bayesian posterior across all three datasets at once, and fuses external
 high-resolution imaging with the IFU data.
 
 ### Status
 
-SPADE has been run across the **KILOGAS** sample — roughly 450 galaxies spanning
+SP♤DE has been run across the **KILOGAS** sample — roughly 450 galaxies spanning
 the MaNGA and SAMI footprints — producing bulge/disk structural parameters,
 component-resolved kinematics and populations, and a classical/pseudo
 classification for each galaxy. Validation against independent host-galaxy

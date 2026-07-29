@@ -22,7 +22,7 @@ goal is to understand the links between structural features of galaxies and mode
 star formation efficiency (SFE) vs. gas availability.
 
 The structural side of this work is powered by
-[**SPADE**](/projects/7_project/), the joint spectro-photometric decomposition
+[**SP♤DE**](/projects/7_project/), the joint spectro-photometric decomposition
 engine I developed to separate classical bulges from pseudobulges using
 imaging, kinematics and stellar populations together.
 
