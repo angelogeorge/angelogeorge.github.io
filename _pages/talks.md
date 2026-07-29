@@ -13,15 +13,18 @@ nav_order: 4
   Seoul National University, Korea** — Contributed talk:
   *From Structural Growth to Quenching: Bulge–Disk Decomposition Across Cosmic
   Time and the Local Resolved ISM.*
-- **October 13–19, 2026 · Kavli IPMU, University of Tokyo, Japan** —
-  Research visit (host: Prof. John Silverman). Seminar:
-  *Contrasting UV and Optical Evolution: The Structural Transformation of
-  Galaxies Since z ~ 1.*
+- **October 15, 2026 · Kavli IPMU, University of Tokyo, Japan** — Invited
+  APEC Seminar: *Contrasting UV and Optical Evolution: The Structural
+  Transformation of Galaxies Since z ~ 1.* (Visit Oct 13–19, host:
+  Prof. John Silverman.)
 
 ---
 
 ## Invited Colloquia
 
+- *Contrasting UV and Optical Evolution: The Structural Transformation of Galaxies Since z~1.*
+  **Kavli IPMU (APEC Seminar), University of Tokyo**, Kashiwa, Japan,
+  October 15, 2026. *Upcoming.*
 - *Contrasting UV and Optical Evolution: The Structural Transformation of Galaxies Since z~1.*
   **National Central University**, Taoyuan, Taiwan, April 10, 2026.
 - *Two Wavelengths, One Story: UV and Optical Views of 7 Billion Years of Galaxy Growth.*
@@ -84,8 +87,8 @@ nav_order: 4
 ## Observing Programs
 
 - **Gemini South / GS-2026B-Q-104** — *Testing Molecular Gas Scaling Relations
-  in z ~ 1.4 Galaxy Clusters with ALMA and Gemini.* Co-I (PI: Rogério
-  Monteiro-Oliveira). 5.4 hr awarded, scientific ranking Band 1.
+  in z ~ 1.4 Galaxy Clusters with ALMA and Gemini.* Co-PI (PI: R.
+  Monteiro-Oliveira). 5.4 hr awarded, Band 1.
 - **Magellan / ROSIE (Baade 6.5 m), 2026B** — *Galaxy Cluster Selection via
   Emission Line Galaxies: Preparing for the Prime Focus Spectrograph Cosmology
   Survey.* PI. 1.0 night.

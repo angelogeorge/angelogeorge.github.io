@@ -11,9 +11,10 @@ cv:
   location: Taipei, Taiwan
   image: ""
   summary: >
-    Observational extragalactic astronomer at ASIAA studying galaxy size and
-    morphology evolution since z ∼ 1, environmental quenching, and rest-frame
-    UV vs. optical structural transformation. PhD from Saint Mary's University
+    Observational extragalactic astronomer at ASIAA studying wavelength-dependent
+    galaxy structural evolution, the connection between structure, environment
+    and quenching, resolved galaxy scaling relations, and variations in the
+    stellar initial mass function (IMF). PhD from Saint Mary's University
     (Halifax, 2025).
 
   social_networks:
@@ -84,9 +85,10 @@ cv:
         end_date: present
         summary: Member of the ASIAA galaxy-evolution group; lead investigator on three projects.
         highlights:
-          - "Lead investigator on the connection between galaxy structure and quenching using the KILOGAS survey of nearby star-forming galaxies."
+          - "Lead investigator on the connection between galaxy structure and quenching using the KILOGAS survey of nearby star-forming, green-valley, and quiescent galaxies."
           - "Probing variations in the stellar initial mass function (IMF) with JWST/NIRSpec and Subaru/PFS."
           - "Modelling the star-forming main sequence and structural drivers of size-mass evolution using IllustrisTNG."
+          - "Supervising undergraduate researchers through the ASIAA Summer Student Program."
 
       - company: Saint Mary's University — Department of Astronomy & Physics
         position: Course Instructor
@@ -111,8 +113,8 @@ cv:
         details: "Galaxy Cluster Selection via Emission Line Galaxies: Preparing for the Prime Focus Spectrograph Cosmology Survey."
       - label: "PI · Magellan/ROSIE (Baade 6.5 m), 2026B — 0.5 nights"
         details: "Beyond Field Gas Scaling Laws: Empirical CO Predictions versus Actual CO Observations in Cluster Environments Over Cosmic Time."
-      - label: "Co-I · Gemini South, GS-2026B-Q-104 — 5.4 hr, Band 1"
-        details: "Testing Molecular Gas Scaling Relations in z ~ 1.4 Galaxy Clusters with ALMA and Gemini (PI: Rogério Monteiro-Oliveira)."
+      - label: "Co-PI · Gemini South, GS-2026B-Q-104 — 5.4 hr, Band 1"
+        details: "Testing Molecular Gas Scaling Relations in z ~ 1.4 Galaxy Clusters with ALMA and Gemini (5.2 hr science + 0.2 hr partner calibration; PI: R. Monteiro-Oliveira)."
       - label: "Collaborator on large imaging and spectroscopic surveys"
         details: "JWST, CFHT (CLAUDS), Subaru/HSC-SSP, Subaru/PFS, ALMA, MaNGA, SAMI."
 
