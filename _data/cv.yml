@@ -109,9 +109,11 @@ cv:
         highlights: []
 
     Observing Programs:
-      - label: "PI · Magellan/ROSIE (Baade 6.5 m), 2026B — 1.0 night"
+      - label: "PI · Magellan Baade (6.5 m) / ROSIE-IFU, 2027A — 1.0 night"
+        details: "Beyond Field Gas Scaling Laws: Mapping Molecular Gas Suppression Across the Full Environment of the z = 1.478 Cluster SPT-CL J2040−4451."
+      - label: "PI · Magellan Baade (6.5 m) / ROSIE, 2026B — 1.0 night"
         details: "Galaxy Cluster Selection via Emission Line Galaxies: Preparing for the Prime Focus Spectrograph Cosmology Survey."
-      - label: "PI · Magellan/ROSIE (Baade 6.5 m), 2026B — 0.5 nights"
+      - label: "PI · Magellan Baade (6.5 m) / ROSIE, 2026B — 0.5 nights"
         details: "Beyond Field Gas Scaling Laws: Empirical CO Predictions versus Actual CO Observations in Cluster Environments Over Cosmic Time."
       - label: "Co-PI · Gemini South, GS-2026B-Q-104 — 5.4 hr, Band 1"
         details: "Testing Molecular Gas Scaling Relations in z ~ 1.4 Galaxy Clusters with ALMA and Gemini (5.2 hr science + 0.2 hr partner calibration; PI: R. Monteiro-Oliveira)."
@@ -119,6 +121,11 @@ cv:
         details: "JWST, CFHT (CLAUDS), Subaru/HSC-SSP, Subaru/PFS, ALMA, MaNGA, SAMI."
 
     Awards:
+      - title: Humane Fish Slaughter Research RFP Honorarium
+        date: 2026
+        awarder: Coefficient Giving
+        summary: Awarded for a Letter of Intent to the Humane Fish Slaughter research call. Value US$4,000.
+
       - title: Durland Family Chancellor's Doctoral Convocation Award
         date: 2025
         awarder: Saint Mary's University
@@ -228,6 +235,10 @@ cv:
         highlights: []
 
     Skills:
+      - name: Software developed
+        level: Author
+        icon: fa-solid fa-wrench
+        keywords: "SP♤DE (Spectro-Photometric Analytic Decomposition Engine) — joint structural decomposition of galaxies using imaging, kinematics, and spectral decomposition"
       - name: Programming & analysis
         level: Advanced
         icon: fa-solid fa-code

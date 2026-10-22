@@ -7,24 +7,11 @@ nav: true
 nav_order: 4
 ---
 
-## Upcoming
-
-- **August 24–28, 2026 · [12th Galaxy Evolution Workshop](https://sites.google.com/view/12th-galaxy-evolution-workshop/),
-  Seoul National University, Korea** — Contributed talk:
-  *From Structural Growth to Quenching: Bulge–Disk Decomposition Across Cosmic
-  Time and the Local Resolved ISM.*
-- **October 15, 2026 · Kavli IPMU, University of Tokyo, Japan** — Invited
-  APEC Seminar: *Contrasting UV and Optical Evolution: The Structural
-  Transformation of Galaxies Since z ~ 1.* (Visit Oct 13–19, host:
-  Prof. John Silverman.)
-
----
-
 ## Invited Colloquia
 
-- *Contrasting UV and Optical Evolution: The Structural Transformation of Galaxies Since z~1.*
+- *The Bulge Connection: Linking Galaxy Growth and Quenching.*
   **Kavli IPMU (APEC Seminar), University of Tokyo**, Kashiwa, Japan,
-  October 15, 2026. *Upcoming.*
+  October 15, 2026.
 - *Contrasting UV and Optical Evolution: The Structural Transformation of Galaxies Since z~1.*
   **National Central University**, Taoyuan, Taiwan, April 10, 2026.
 - *Two Wavelengths, One Story: UV and Optical Views of 7 Billion Years of Galaxy Growth.*
@@ -44,6 +31,10 @@ nav_order: 4
 
 ## Contributed Oral Talks
 
+- *From Structural Growth to Quenching: Bulge–Disk Decomposition Across Cosmic
+  Time and the Local Resolved ISM.*
+  **[12th Galaxy Evolution Workshop](https://sites.google.com/view/12th-galaxy-evolution-workshop/)**,
+  Seoul National University, Korea, August 2026.
 - *Two Wavelengths, Two Components: A New View of Galaxy Growth.*
   **CASCA 2026**, Montréal, Canada, June 2026.
 - Contributed talk on galaxy quenching with KILOGAS.
@@ -79,19 +70,22 @@ nav_order: 4
 ## Research Visits
 
 - **Kavli IPMU, University of Tokyo**, Japan — October 13–19, 2026
-  (host: Prof. John Silverman). *Upcoming.*
+  (host: Prof. John Silverman).
 - **Saint Mary's University**, Halifax, Canada — June 1–5, 2026.
 
 ---
 
 ## Observing Programs
 
+- **Magellan Baade (6.5 m) / ROSIE-IFU, 2027A** — *Beyond Field Gas Scaling
+  Laws: Mapping Molecular Gas Suppression Across the Full Environment of the
+  z = 1.478 Cluster SPT-CL J2040−4451.* PI. 1.0 night.
+- **Magellan Baade (6.5 m) / ROSIE, 2026B** — *Galaxy Cluster Selection via
+  Emission Line Galaxies: Preparing for the Prime Focus Spectrograph Cosmology
+  Survey.* PI. 1.0 night.
+- **Magellan Baade (6.5 m) / ROSIE, 2026B** — *Beyond Field Gas Scaling Laws:
+  Empirical CO Predictions versus Actual CO Observations in Cluster
+  Environments Over Cosmic Time.* PI. 0.5 nights.
 - **Gemini South / GS-2026B-Q-104** — *Testing Molecular Gas Scaling Relations
   in z ~ 1.4 Galaxy Clusters with ALMA and Gemini.* Co-PI (PI: R.
   Monteiro-Oliveira). 5.4 hr awarded, Band 1.
-- **Magellan / ROSIE (Baade 6.5 m), 2026B** — *Galaxy Cluster Selection via
-  Emission Line Galaxies: Preparing for the Prime Focus Spectrograph Cosmology
-  Survey.* PI. 1.0 night.
-- **Magellan / ROSIE (Baade 6.5 m), 2026B** — *Beyond Field Gas Scaling Laws:
-  Empirical CO Predictions versus Actual CO Observations in Cluster
-  Environments Over Cosmic Time.* PI. 0.5 nights.
